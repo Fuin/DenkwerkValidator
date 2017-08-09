@@ -1,0 +1,13 @@
+{
+    "require-dev": {
+        "codeception/codeception": "2.*",
+        "kolyunya/codeception-markup-validator": "^3.0"
+    },
+
+    "autoload":{
+        "psr-4":{
+            "": "tests/",
+            "Denkwerk\\": "cli/"
+        }
+    }
+}
